@@ -2,6 +2,8 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- スマホ用設定 -->
+  <meta name="description" content="CSS Cafeの公式ウェブサイトです。商品情報、店舗紹介、アクセス、会社情報など"> <!-- seo関連のため -->
   <title>CSS Cafe</title>
   <link rel="stylesheet" href="css/html5reset-1.6.1.css"> <!-- リセットcss -->
   <link rel="stylesheet" href="css/base.css">  <!-- cssファイルを読み込む記述 -->
@@ -9,13 +11,13 @@
 <body id="home">
   <!-- header begin -->
   <header id="top">
-    <div>
-      <h1><img src="https://via.placeholder.com/100x90" alt="CSS Cafe" class="header-logo"></h1>
+    <div class="header_content wrapper">
+      <h1><img src="images/logo.png" alt="CSS Cafe" class="header_logo"></h1>
       <nav>
         <ul>
           <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="#"></a>Menu</li>
-          <li><a href="#"></a>Access</li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Access</a></li>
         </ul>
       </nav>
     </div>
@@ -26,19 +28,19 @@
   <div class="contents wrapper">
     <!-- main begin -->
     <main id="main_content">
-      <section>
+      <section id="info">
         <h2>お知らせ</h2>
         <dl>
           <dt>2020/3/10</dt>
-          <dt>リニューアルオープンしました。</dt>
+          <dd>リニューアルオープンしました。</dd>
           <dt>2020/4/15</dt>
-          <dt>4/27（金）は設備メンテナンスのため休業いたします。</dt>
+          <dd>4/27（金）は設備メンテナンスのため休業いたします。</dd>
           <dt>2018/4/20</dt>
-          <dt>ゴールデンウィークは休まず営業いたします</dt>
+          <dd>ゴールデンウィークは休まず営業いたします</dd>
           <dt>2020/6/20</dt>
-          <dt>こだわりのパンに合わせたスペシャルデザートが登場</dt>
+          <dd>こだわりのパンに合わせたスペシャルデザートが登場</dd>
           <dt>2020/7/10</dt>
-          <dt>営業時間の一部変更について</dt>
+          <dd>営業時間の一部変更について</dd>
         </dl> 
       </section>
       <section id="campaign">
@@ -55,8 +57,8 @@
     <!-- sideber begin -->
       <aside id="sidebar">  <!-- asideタグは余談・補足情報のセクションであることを示す -->
         <ul>
-          <li><a href="#"><img src="https://via.placeholder.com/250x150" alt="季節のおすすめ商品はこちら"></li></a>
-          <li><a href="#"><img src="https://via.placeholder.com/250x150" alt="コーヒー豆の豆知識"></li></a>
+          <li><a href="#"><img src="images/banner01.png" alt="季節のおすすめ商品はこちら"></li></a>
+          <li><a href="#"><img src="images/banner02.png" alt="コーヒー豆の豆知識"></li></a>
         </ul>
       </aside>
     <!-- sidebar end -->
