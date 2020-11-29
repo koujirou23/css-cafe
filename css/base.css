@@ -57,7 +57,7 @@ header nav ul li.current a{   /* 現在のページ */
 #main_image{
   width: 100%;
   height: 50vh;
-  background-image: url(https://via.placeholder.com/3000x2500);
+  background-image: url(../images/cafe.jpg); /* (../) base.cssから見て二つ上の階層から見たimages/cafe.jpgにあります */
   background-repeat: none;
   background-position: center;
   background-size: cover;
